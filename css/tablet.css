@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+  /* job Info */
+  .job-head-icon {
+    position: absolute;
+    top: -50px;
+    right: 0;
+  }
+  .job-container {
+    display: block;
+  }
+
+  .job-item {
+    width: 50%;
+    float: left;
+  }
+
+  .item-3,
+  .item-5 {
+    float: right;
+  }
+
+  /* Certificate */
+
+  .img-cert {
+    width: 100%;
+  }
+  .cert-item {
+    flex-direction: column;
+  }
+
+  /* Nâng cao */
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+  .scopes {
+    grid-row: 2/3;
+  }
+  .primary {
+    grid-row: 4/5;
+  }
+  .timeline {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
